@@ -67,7 +67,7 @@ storage-nodestore-postgres = ["llama-index-storage-docstore-postgres","llama-ind
 rerank-sentence-transformers = ["torch", "sentence-transformers"]
 
 [tool.poetry.group.dev.dependencies]
-black = "^22"
+black = "^24"
 mypy = "^1.2"
 pre-commit = "^2"
 pytest = "^7"
